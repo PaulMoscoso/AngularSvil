@@ -1,0 +1,9 @@
+<h1>Product view</h1>
+
+Counter view : {{counterView}}
+<hr>
+
+<h2><app-product-list  (eventCounter)="counter($event)"></app-product-list></h2>
+
+
+<app-product-header [inputCounter]="counterView" ></app-product-header>

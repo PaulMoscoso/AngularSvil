@@ -15,7 +15,6 @@ export class TemplateComponent {
 
 
   goToProduct(){
-
     this.router.navigateByUrl("template/prodotto");
   }
 
